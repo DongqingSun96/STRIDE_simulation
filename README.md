@@ -6,7 +6,7 @@ This repository contains all the results and codes to generate the performance e
 ## About files
 
 ### Data: three simulated ST datasets and the reference scRNA-seq
-* [Data/ST_simulation](Data/ST_simulation) contains three simulated ST datasets used in STRIDE paper to compare STRIDE's deconvolution performance with other tools.
+* `Data/ST_simulation` contains three simulated ST datasets used in STRIDE paper to compare STRIDE's deconvolution performance with other tools.
   Folder | Explanation
   --- | --- 
   `Fig2_simulation` | Random simulation, named as `ST1` (Fig 2D-F and Fig S1D).
@@ -20,7 +20,7 @@ This repository contains all the results and codes to generate the performance e
   `*.data.rds` | The simulated ST data, in which `$cell_composition` stores cell compositions for each simulated spot and `$topic_profiles` stores merged gene expression for each spot.
   `*_res.rds` | Processed `Seurat` object for the simulated ST data.
 
-* [Data/scRNA](Data/scRNA) contains the scRNA-seq reference used to simulate ST data.
+* `Data/scRNA` contains the scRNA-seq reference used to simulate ST data.
 
   File | Explanation
   --- | --- 
