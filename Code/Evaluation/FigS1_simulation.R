@@ -15,7 +15,7 @@ setwd("STRIDE_simulation")
       res_prefix_dir = "Result/FigS1_simulation"
       data_prefix = "Simulation_20211109"
       
-      sim.res = readRDS(file.path(data_prefix_dir, "BRCA_EMTAB8107_simulation_20211109.rds"))
+      sim.res = readRDS(file.path(data_prefix_dir, "BRCA_EMTAB8107_simulation_20211109.data.rds"))
       sim.cell.comp = sim.res$cell_composition
       sim.cell.comp = sim.cell.comp[,sort(names(sim.cell.comp))]
       sim.cell.comp.frac = sim.cell.comp/rowSums(sim.cell.comp)
