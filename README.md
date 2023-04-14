@@ -1,7 +1,7 @@
 # STRIDE_simulation
 This repository contains all the results and codes to generate the performance evaluation plots in main Figure 2 (Fig 2D-G) and supplementary Figure S1 (Fig S1D-G) of [STRIDE paper](https://academic.oup.com/nar/article/50/7/e42/6543547).
 
-*To run the codes, please clone the repository and download the [Data](https://drive.google.com/drive/folders/1rQ4IsmHRmLflsmEKHjEvq5rq8t4PQwBZ?usp=share_link) folder to the `STRIDE_simulation` filder.*
+*To run the codes, please clone the repository and download the [Data](https://drive.google.com/drive/folders/1rQ4IsmHRmLflsmEKHjEvq5rq8t4PQwBZ?usp=share_link) folder to the `STRIDE_simulation` folder.*
 
 ## About files
 
