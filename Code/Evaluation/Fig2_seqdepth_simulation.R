@@ -12,7 +12,7 @@ setwd("STRIDE_simulation")
   deconv_comp_df_list = list()
   for (reads in c(1000, 2500, 5000, 10000, 15000, 20000)){
     print(reads)
-    sim.res = readRDS(file.path(data_prefix_dir, as.character(reads), paste0("BRCA_EMTAB8107_simulation_20211110_seqdepth_", reads,".rds")))
+    sim.res = readRDS(file.path(data_prefix_dir, as.character(reads), paste0("BRCA_EMTAB8107_simulation_20211110_seqdepth_", reads,".data.rds")))
     sim.cell.comp = sim.res$cell_composition
     sim.cell.comp = sim.cell.comp[,sort(names(sim.cell.comp))]
     sim.cell.comp.frac = sim.cell.comp/rowSums(sim.cell.comp)
